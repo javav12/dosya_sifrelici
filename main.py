@@ -3,7 +3,7 @@ from tkinter import messagebox, Text
 from getpass import getpass
 import pyAesCrypt
 import os
-
+ 
 def encrypt():
     name = name_entry.get()
     password = password_entry.get()
